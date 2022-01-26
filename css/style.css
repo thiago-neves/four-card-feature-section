@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+body {
+	display: flex;
+	min-height: 100vh;
+	font-size: 15px;
+	align-items: center;
+	justify-content: center;
+	color:  hsl(234, 12%, 34%);
+	background-color: hsl(0, 0%, 98%);
+	font-family: 'Poppins', sans-serif!important;
+}
+
+.first-title {
+	font-weight: 200;
+}
+
+.first-title, .second-title {
+	font-size: 2.5em;
+	line-height: .5em;
+	text-align: center;
+	color:  hsl(234, 12%, 34%);
+}
+
+.paragraph {
+	text-align: center;
+	color: hsl(229, 6%, 66%);
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.card-group {
+	margin-top: 50px;
+}
+
+.card {
+	width: 350px;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 5px;
+	padding: 30px 30px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 25px hsl(234, 12%, 90%);
+}
+
+.bg-cyan {
+	border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.bg-red {
+	border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.bg-orange {
+	border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.bg-blue {
+	border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.card-title {
+	font-size: 1.5em;
+	line-height: 15px;
+}
+
+.card-paragraph {
+	color: hsl(229, 6%, 66%);
+	margin-bottom: 30px;
+}
+
+.card-icon {
+	text-align: right;
+	align-self: flex-end;
+}
+
+.margin-bottom {
+	margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+	.flex {
+		flex-direction: column;
+		max-width: 100%!important;
+	}
+	.first-title, .second-title {
+		line-height: 1em;
+	}
+	.card {
+		max-width: 80%;
+	}
+}
